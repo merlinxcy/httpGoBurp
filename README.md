@@ -2,7 +2,7 @@
 http burp raw for golang
 
 # Usage
-
+```
 raw = `
 POST /post HTTP/1.1
 Host: httpbin.org
@@ -17,3 +17,4 @@ a=1&b=2&c=heloo
 `
 http := new(httpHack.Http)
 fmt.Println(http.DoHttpRaw(raw))
+```
