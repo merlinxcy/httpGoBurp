@@ -1,5 +1,5 @@
 # httpGoBurp
-http burp raw for golang
+http package send burp raw in golang
 
 # Usage
 ```
